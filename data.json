@@ -1,0 +1,47 @@
+{
+    "india": {
+        "bangalore": {
+            "hospitals": [
+                "Manipal Hospital",
+                "Fortis Hospital",
+                "Apollo Hospital"
+            ],
+            "emergency_numbers": [
+                "112",
+                "108"
+            ]
+        },
+        "delhi": {
+            "hospitals": [
+                "AIIMS Delhi",
+                "Max Hospital",
+                "Fortis Escorts"
+            ],
+            "emergency_numbers": [
+                "112",
+                "102"
+            ]
+        }
+    },
+    "usa": {
+        "new york": {
+            "hospitals": [
+                "NY Presbyterian",
+                "Mount Sinai",
+                "Lenox Hill"
+            ],
+            "emergency_numbers": [
+                "911"
+            ]
+        },
+        "california": {
+            "hospitals": [
+                "UCLA Health",
+                "Stanford Health Care"
+            ],
+            "emergency_numbers": [
+                "911"
+            ]
+        }
+    }
+}

@@ -1,0 +1,24 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>LifeLine Global</title>
+</head>
+<body>
+<h2>LifeLine Global – Emergency Resource Locator</h2>
+<input id="country" placeholder="Enter country">
+<input id="city" placeholder="Enter city">
+<button onclick="search()">Search</button>
+<pre id="output"></pre>
+
+<script>
+async function search(){
+    let c=document.getElementById("country").value;
+    let ci=document.getElementById("city").value;
+    let res=await fetch(`http://localhost:8000/resources/${c}/${ci}`);
+    let data=await res.json();
+    document.getElementById("output").textContent=JSON.stringify(data,null,2);
+}
+</script>
+</body>
+</html>
